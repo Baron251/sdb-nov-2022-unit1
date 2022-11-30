@@ -1,0 +1,77 @@
+.container{
+    background-image: url("https://www.thewrap.com/wp-content/uploads/2019/03/trebek.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;    
+    height: 360px;
+}
+h1{
+    text-shadow: 0 0 5px white;
+}
+th{
+   background-color: blue ;
+}
+table{
+    color: white;
+    height: 480px;
+}
+td{
+    border: 1px solid black;
+    padding: 2em;
+}
+
+
+.btn:hover {
+    background: #eee;
+}
+
+body{
+    background-image: url(https://i.redd.it/lra72cmhu7461.jpg);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.gpi{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.response{
+    align-self: center;
+}   
+footer{
+    background-color: gray;
+    width: 8%;
+    /* height: 60px; */
+    align-self: center;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    
+    
+}
+.foot1{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+.foot2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+h3{
+    color: yellow;
+}
